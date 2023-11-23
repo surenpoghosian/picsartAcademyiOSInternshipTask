@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		33B2CC8C2B0E858A0010B9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CC8B2B0E858A0010B9FC /* AppDelegate.swift */; };
 		33B2CC8E2B0E858A0010B9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CC8D2B0E858A0010B9FC /* SceneDelegate.swift */; };
-		33B2CC902B0E858A0010B9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CC8F2B0E858A0010B9FC /* ViewController.swift */; };
 		33B2CC932B0E858A0010B9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B2CC912B0E858A0010B9FC /* Main.storyboard */; };
 		33B2CC952B0E858B0010B9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B2CC942B0E858B0010B9FC /* Assets.xcassets */; };
 		33B2CC982B0E858B0010B9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B2CC962B0E858B0010B9FC /* LaunchScreen.storyboard */; };
+		33B2CCA22B0E88C70010B9FC /* CallRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CCA12B0E88C70010B9FC /* CallRoomViewController.swift */; };
+		33B2CCA82B0E89060010B9FC /* CallRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CCA72B0E89060010B9FC /* CallRoomModel.swift */; };
+		33B2CCAA2B0E891F0010B9FC /* CallRoomUserWindowsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CCA92B0E891F0010B9FC /* CallRoomUserWindowsCollectionViewCell.swift */; };
+		33B2CCAC2B0E892C0010B9FC /* CallRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CCAB2B0E892C0010B9FC /* CallRoomViewModel.swift */; };
+		33B2CCAE2B0EE5E00010B9FC /* CollectionViewLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2CCAD2B0EE5E00010B9FC /* CollectionViewLayouts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33B2CC882B0E858A0010B9FC /* Picsart Academy iOS Task (Suren Poghosyan).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picsart Academy iOS Task (Suren Poghosyan).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B2CC8B2B0E858A0010B9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B2CC8D2B0E858A0010B9FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33B2CC8F2B0E858A0010B9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33B2CC922B0E858A0010B9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33B2CC942B0E858B0010B9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33B2CC972B0E858B0010B9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33B2CC992B0E858B0010B9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B2CCA12B0E88C70010B9FC /* CallRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRoomViewController.swift; sourceTree = "<group>"; };
+		33B2CCA72B0E89060010B9FC /* CallRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRoomModel.swift; sourceTree = "<group>"; };
+		33B2CCA92B0E891F0010B9FC /* CallRoomUserWindowsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRoomUserWindowsCollectionViewCell.swift; sourceTree = "<group>"; };
+		33B2CCAB2B0E892C0010B9FC /* CallRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRoomViewModel.swift; sourceTree = "<group>"; };
+		33B2CCAD2B0EE5E00010B9FC /* CollectionViewLayouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayouts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		33B2CC8A2B0E858A0010B9FC /* Picsart Academy iOS Task (Suren Poghosyan) */ = {
 			isa = PBXGroup;
 			children = (
-				33B2CC8B2B0E858A0010B9FC /* AppDelegate.swift */,
-				33B2CC8D2B0E858A0010B9FC /* SceneDelegate.swift */,
-				33B2CC8F2B0E858A0010B9FC /* ViewController.swift */,
-				33B2CC912B0E858A0010B9FC /* Main.storyboard */,
+				33B2CCA02B0E888F0010B9FC /* CallRoom */,
+				33B2CC9F2B0E88880010B9FC /* Application */,
 				33B2CC942B0E858B0010B9FC /* Assets.xcassets */,
-				33B2CC962B0E858B0010B9FC /* LaunchScreen.storyboard */,
 				33B2CC992B0E858B0010B9FC /* Info.plist */,
 			);
 			path = "Picsart Academy iOS Task (Suren Poghosyan)";
+			sourceTree = "<group>";
+		};
+		33B2CC9F2B0E88880010B9FC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				33B2CC8B2B0E858A0010B9FC /* AppDelegate.swift */,
+				33B2CC8D2B0E858A0010B9FC /* SceneDelegate.swift */,
+				33B2CC912B0E858A0010B9FC /* Main.storyboard */,
+				33B2CC962B0E858B0010B9FC /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		33B2CCA02B0E888F0010B9FC /* CallRoom */ = {
+			isa = PBXGroup;
+			children = (
+				33B2CCA52B0E88E00010B9FC /* ViewModel */,
+				33B2CCA42B0E88DB0010B9FC /* Models */,
+				33B2CCA32B0E88CC0010B9FC /* Views */,
+			);
+			path = CallRoom;
+			sourceTree = "<group>";
+		};
+		33B2CCA32B0E88CC0010B9FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33B2CCA12B0E88C70010B9FC /* CallRoomViewController.swift */,
+				33B2CCA92B0E891F0010B9FC /* CallRoomUserWindowsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33B2CCA42B0E88DB0010B9FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33B2CCA72B0E89060010B9FC /* CallRoomModel.swift */,
+				33B2CCAD2B0EE5E00010B9FC /* CollectionViewLayouts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33B2CCA52B0E88E00010B9FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33B2CCAB2B0E892C0010B9FC /* CallRoomViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B2CC902B0E858A0010B9FC /* ViewController.swift in Sources */,
 				33B2CC8C2B0E858A0010B9FC /* AppDelegate.swift in Sources */,
+				33B2CCA82B0E89060010B9FC /* CallRoomModel.swift in Sources */,
+				33B2CCAE2B0EE5E00010B9FC /* CollectionViewLayouts.swift in Sources */,
+				33B2CCA22B0E88C70010B9FC /* CallRoomViewController.swift in Sources */,
+				33B2CCAA2B0E891F0010B9FC /* CallRoomUserWindowsCollectionViewCell.swift in Sources */,
 				33B2CC8E2B0E858A0010B9FC /* SceneDelegate.swift in Sources */,
+				33B2CCAC2B0E892C0010B9FC /* CallRoomViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
